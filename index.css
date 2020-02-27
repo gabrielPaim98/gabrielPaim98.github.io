@@ -1,0 +1,51 @@
+body {
+    background-color: #2B2D42;
+    font-family: 'Montserrat';
+    color: #EDF2F4;
+}
+
+.background-img img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    margin: 0px;
+}
+
+.nome {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-size: 1.8em;
+    font-weight: 900;
+}
+
+.titulo {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.funcoes ul {
+    position: absolute;
+    top: 425px;
+    left: 75px;
+    font-size: 1.4em;
+    font-weight: 500;
+    list-style-type: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+.funcoes ul li {
+    padding-left: 25px;
+}
+
+.about h2 {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 10px 0px;
+    font-size: 2.2em;
+    font-weight: 600;
+}

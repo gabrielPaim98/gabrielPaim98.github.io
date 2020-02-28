@@ -207,3 +207,31 @@ body {
     background-color: #2965F1;
     content: "";
 }
+
+.contato h2 {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 10px 0px;
+    font-size: 2.2em;
+    font-weight: 600;
+    border-bottom-width: 10px;
+}
+
+.contato hr {
+    height: 1px;
+    background-color: #EDF2F4;
+}
+
+.links-contato {
+    margin: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.links-contato img {
+    margin: 0px 45px;
+    height: 90px;
+}

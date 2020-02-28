@@ -48,4 +48,111 @@ body {
     margin: 50px 0px 10px 0px;
     font-size: 2.2em;
     font-weight: 600;
+    border-bottom-width: 10px;
+}
+
+.about hr {
+    height: 1px;
+    background-color: #EDF2F4;
+}
+
+.linha1 {
+    width: 300px;
+}
+
+.linha2 {
+    width: 150px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.avatar img {
+    border-radius: 10%;
+    margin: 50px;
+}
+
+.avatar p {
+    width: 550px;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.habilidades h2 {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 10px 0px;
+    font-size: 2.2em;
+    font-weight: 600;
+    border-bottom-width: 10px;
+}
+
+.habilidades hr {
+    height: 1px;
+    background-color: #EDF2F4;
+}
+
+.habilidades-especificas {
+    color: #EF233C;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 40px 400px 80px 400px 80px 400px 40px;
+    grid-template-rows: 50px 275px 40px 275px;
+}
+
+.card {
+    background-color: #EDF2F4;
+    width: 400px;
+    height: 275px;
+    border-radius: 7%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+#java {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+#android {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#flutter {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#js{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#ht {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#cs {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
 }

@@ -97,7 +97,7 @@ body {
 }
 
 .habilidades-especificas {
-    color: #EF233C;
+    color: #2B2D42;
     display: grid;
     justify-content: center;
     grid-template-columns: 40px 400px 80px 400px 80px 400px 40px;
@@ -110,8 +110,10 @@ body {
     height: 275px;
     border-radius: 7%;
     display: flex;
+    flex-direction: column;
     align-self: center;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     font-size: 1.2em;
 }
 
@@ -155,4 +157,53 @@ body {
     grid-column-end: 7;
     grid-row-start: 4;
     grid-row-end: 5;
+}
+
+.barra-progresso {
+    width: 200px;
+    height: 12px;
+    display: flex;
+    background-color: #8D99AE;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100px;
+}
+
+#java .barra-progresso::before {
+    width: 80%;
+    background-color: #1800FF;
+    content: "";
+}
+
+#android .barra-progresso::before {
+    width: 60%;
+    background-color: #79C257;
+    content: "";
+}
+
+#flutter .barra-progresso::before {
+    width: 85%;
+    background-color: #4CCEF8;
+    content: "";
+}
+
+#js .barra-progresso::before {
+    width: 50%;
+    background-color: #F0DB4F;
+    content: "";
+}
+
+#ht .barra-progresso::before {
+    width: 90%;
+    background-color: #F16529;
+    content: "";
+}
+
+#cs .barra-progresso::before {
+    width: 80%;
+    background-color: #2965F1;
+    content: "";
 }

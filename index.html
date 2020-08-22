@@ -1,107 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Gabriel Paim</title>
-	<link rel="stylesheet" href="index.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="My personal landing page">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="personallandingpage">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>personallandingpage</title>
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
-	<header>
-		<div class="background-img">
-			<img src="img/background.jpg" alt="Imagem de fundo">
-		</div>
-		<div class="nome">
-			<h1>Gabriel Paim</h1>
-		</div>
-		<div class="titulo">
-			<h2>Estudante de Engenharia de Software</h2>
-		</div>
-		<div class="funcoes">
-			<ul>
-				<li>Desenvolvedor FullStack</li>
-				<li>-</li>
-				<li>Mobile</li>
-			</ul>
-		</div>
-	</header>
-
-	<section class="sobre-mim">
-		<div class="about">
-			<h2>Sobre Mim</h2>
-			<hr class="linha1">
-			<hr class="linha2">
-		</div>
-		<div class="avatar">
-			<img src="img/me.jpeg" alt="Imagem do meu rosto">
-			<p>
-				Amante da programação, afinidade com as áreas de desenvolvimento 
-				web e mobile. Estudante bolsista do 4° semestre do curso de Bacharelado 
-				em Engenharia de Software na Universidade Católica do Salvador. 
-			</p>
-		</div>
-	</section>
-	
-	<section class="habilidades">
-		<div class="habilidades">
-			<h2>Habilidades</h2>
-			<hr class="linha1">
-			<hr class="linha2">
-		</div>
-		<div class="habilidades-especificas">
-			<div class="card" id="java">
-				<img src="img/java.png" alt="Java logo">
-				<h3>Java</h3>
-				<div class="barra-progresso"></div>
-			</div>
-			<div class="card" id="android">
-				<img src="img/android.png" alt="Android logo">
-				<h3>Java Android</h3>
-				<div class="barra-progresso"></div>
-			</div>
-			<div class="card" id="flutter">
-				<img src="img/flutter.png" alt="Flutter logo">
-				<h3>Flutter</h3>
-				<div class="barra-progresso"></div>
-			</div>
-			<div class="card" id="js">
-				<img src="img/js.png" alt="JavaScript logo">
-				<h3>JavaScript</h3>
-				<div class="barra-progresso"></div>
-			</div>
-			<div class="card" id="ht">
-				<img src="img/html.png" alt="HTML5 logo">
-				<h3>HTML5</h3>
-				<div class="barra-progresso"></div>
-			</div>
-			<div class="card" id="cs">
-				<img src="img/css.png" alt="CSS3 logo">
-				<h3>CSS3</h3>
-				<div class="barra-progresso"></div>
-			</div>
-		</div>
-
-	</section>
-
-	<section class="contato">
-		<div class="contato">
-			<h2>Contato</h2>
-			<hr class="linha1">
-			<hr class="linha2">
-		</div>
-		<div class="links-contato">
-			<a href="mailto:gabriel.ferrarezi.paim@gmail.com"><img src="img/email.svg" alt="Contato email"></a>
-			<a href="https://www.facebook.com/"><img src="img/facebook.svg" alt="Contato facebook"></a>
-			<a href="https://www.instagram.com/gpaimm/"><img src="img/instagram.svg" alt="Contato instagram"></a>
-			<a href="https://www.linkedin.com/in/GabrielPaim"><img src="img/linkedin.svg" alt="Contato linkedin"></a>
-			<a href="https://wa.me/55999999999"><img src="img/whatsapp.svg" alt="Contato whatsapp"></a>			
-		</div>
-
-		<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-		<div>Icons made by <a href="https://www.flaticon.com/authors/chanut" title="Chanut">Chanut</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
-	</section>
-
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
 </body>
 </html>

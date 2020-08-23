@@ -3,14 +3,21 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "11ec25f318e5b32ed1b4713205800d73",
+  "assets/AssetManifest.json": "3116399420a4b41017a5f81af876f378",
 "assets/assets/images/banner.png": "4eff2f7c4e787381c7391f982c7ef639",
+"assets/assets/images/email.png": "c61b39b85f9911b6ad7eb0705ece3934",
+"assets/assets/images/facebook.png": "d9243fd574a55684cdda03486cd991a4",
 "assets/assets/images/firebase.png": "44b31b544b9ca3c736788200b4fd120d",
 "assets/assets/images/github.png": "07c11da6720856732fde0133d33a1755",
 "assets/assets/images/gitlab.png": "307fa4f7f37831684fe3e3ee33ab97d3",
+"assets/assets/images/instagram.png": "1eba5ee11416a143b920fc0e75944d5f",
 "assets/assets/images/kotlin.png": "cf5ef50136d4d124152cc8f0f25db242",
+"assets/assets/images/linkedin.png": "a70331a7f8a28468f735017da70b185c",
+"assets/assets/images/me.jpg": "90dc9a2c581e10d8735a99c43d20899d",
 "assets/assets/images/mongodb.png": "0fbd04cba8e061b55e9da307a880f8f3",
 "assets/assets/images/postgresql.png": "50156c71fb2cf47d5cfe134231975922",
+"assets/assets/images/ucsal.png": "82bd3f1fb02a886fd9ab0b483485cd19",
+"assets/assets/images/whatsapp.png": "19657bd2df767baba7252bd76e6d90d2",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "a68d2a28c526b3b070aefca4bac93d25",
 "assets/NOTICES": "161ea1c2b6ae9cffb39c851fa768a643",
@@ -20,7 +27,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "9041ec9ff2edd5a4444f029739efb090",
 "/": "9041ec9ff2edd5a4444f029739efb090",
-"main.dart.js": "2b5e8f3f2efd4a3f4d87362922e10c69",
+"main.dart.js": "958831e74d6f49126f5f77a4d68f7e7a",
 "manifest.json": "7ea8c54a13a3aec184365984b1f5a3fa"
 };
 
